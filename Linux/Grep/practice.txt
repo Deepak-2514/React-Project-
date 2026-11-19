@@ -1,0 +1,28 @@
+# Practice file for grep exercises
+# Lines starting with # are comments
+
+2026-11-01 08:00:01 INFO  Server started on 10.0.0.1 port 8080
+2026-11-01 08:01:15 INFO  User alice@example.com logged in from 192.168.1.20
+2026-11-01 08:02:30 WARN  Disk usage at 81% on /dev/sda1
+2026-11-01 08:03:45 error Connection refused from 192.168.1.33
+2026-11-01 08:04:00 INFO  User bob.smith@mail.org logged in from 192.168.1.20
+2026-11-01 08:05:12 ERROR Database timeout after 30s
+2026-11-01 08:05:13 INFO  Retrying database connection
+2026-11-01 08:05:14 INFO  Retry 2 of 3
+2026-11-01 08:05:15 FATAL Database unreachable, shutting down
+
+2026-11-01 08:10:00 INFO  Server started on 10.0.0.1 port 8080
+2026-11-01 08:11:22 WARN  Slow request /api/users took 2300ms
+2026-11-01 08:12:01 INFO  Write to log complete
+2026-11-01 08:12:02 INFO  Rotated logs, login service restarted
+2026-11-01 08:13:40 ERROR Failed password for root from 203.0.113.5
+2026-11-01 08:13:41 ERROR Failed password for root from 203.0.113.5
+2026-11-01 08:13:42 ERROR Failed password for admin from 198.51.100.7
+2026-11-01 08:14:00 INFO  Support contact: 555-123-4567 or help@example.com
+
+# Misc lines for regex practice
+The cat sat on the mat.
+I like the colour blue, and the color red.
+cut the c9t into pieces
+Backup done
+END
